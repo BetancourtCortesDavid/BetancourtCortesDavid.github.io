@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">    
 </head>
+
 <body>
     <div class="container">
         <header class="header">
@@ -17,28 +18,43 @@
         </header>
         <main class="content">
             <section>
-                <h2>Experiencia Educativa</h2>
-                <p>Universidad del Valle: Ingeniería Electrónica Feb 2018 — Nov 2020.</p>
-                <p>IQ Integrity AML: Construcción y análisis de redes complejas N1 Oct 2023 — Nov 2023</p>
-                <p>Universidad Santiago de Cali: Tecnología en Sistemas Feb 2022 — Actualidad</p>
-            </section>
-            <section>
                 <h2>Experiencia Laboral</h2>
                 <p>ML Carpintería SAS - Jefe de Almacén Mayo 2021 — Dic 2021</p>
                 <p>Banco de Occidente - Auxiliar de Digitalización Mayo 2022 — Julio 2022</p>
                 <p>Banco de Occidente - Auxiliar de Cumplimiento Abril 2023 — Actualidad</p>
-                <p>Banco de Occidente - Ingeniero de Datos PROXIMAMENTE</p>
+                <p>Banco de Occidente - Ingeniero de Datos — PROXIMAMENTE</p>
+                
+            </section>
+            <section>
+                <h2>Experiencia Educativa</h2>
+
+                <ul id="educacionList">
+                    <!--La lista empieza sin elementos-->
+                </ul>
+            
+                <button id="addEdu">Ingresar Experiencia</button>
+                <button id="editEdu">Modificar Experiencia</button>
+                <button id="deleteEdu">Eliminar Experiencia</button>
             </section>
             <section>
                 <h2>Sobre Mí</h2>
-                <p>...</p>
+                <h3>Skills</h3>
+                
+                <ul id="skillsList">
+                    <!--La lista empieza sin elementos-->
+                </ul>
+            
+                <button id="addSkill">Agregar Skill</button>
+                <button id="editSkill">Editar Skill</button>
+                <button id="deleteSkill">Borrar Skill</button>
             </section>
         </main>
         <footer class="footer">
             <p>Información de contacto</p>
-            <p>Mail: <a href="mailto:david.betancourt01@usc.edu.co">david.betancourt01@usc.edu.co</a></p>
-            <p>Celular: 3195756250</p>
+            <p>Mail: <a href="mailto:kkguate@dominiomail.com">kkguate@dominiomail.com</a></p>
+            <p>Celular: 36546521321</p>
         </footer>
     </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
