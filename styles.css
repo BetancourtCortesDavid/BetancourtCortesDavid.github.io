@@ -85,3 +85,9 @@ skillsList li.selected {
     background-color: #f0f0f0;
     border-color: #000;
 }
+
+#miFoto img{
+    width: 20%;
+    margin-inline: 40%;
+
+}
